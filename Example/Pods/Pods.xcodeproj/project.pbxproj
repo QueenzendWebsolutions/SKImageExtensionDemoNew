@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07A02AF225D21B3BC33EF8A8CE0338BB /* Pods-SKImageExtensionDemoNew_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2618053E86549A9652FAB277FA3958B /* Pods-SKImageExtensionDemoNew_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08BC9DE825596C4400C2B741 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC9DE725596C4400C2B741 /* UIImageView.swift */; };
+		08BC9DEB25596FA500C2B741 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 08BC9DE925596FA400C2B741 /* Assets */; };
+		08BC9DEC25596FA500C2B741 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 08BC9DEA25596FA500C2B741 /* Classes */; };
 		21ECDA78C7D46D51E0E09E917B8999AF /* SKImageExtensionDemoNew-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5135F84C0073DAB57F905A8A0D7F6F8 /* SKImageExtensionDemoNew-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34EE3147DC0B641D13C285438F9FAEC9 /* Pods-SKImageExtensionDemoNew_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D6A6BC5BC2BCF93C6E3046AE8394F4 /* Pods-SKImageExtensionDemoNew_Tests-dummy.m */; };
 		7053C24553E923F4A1DA78091459EE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -38,7 +39,8 @@
 
 /* Begin PBXFileReference section */
 		06360E72A2077BF28A5C2DC7CFE16B06 /* SKImageExtensionDemoNew.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKImageExtensionDemoNew.modulemap; sourceTree = "<group>"; };
-		08BC9DE725596C4400C2B741 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		08BC9DE925596FA400C2B741 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		08BC9DEA25596FA500C2B741 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		0D3035D1D93A2A912459A029F06D5567 /* Pods-SKImageExtensionDemoNew_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKImageExtensionDemoNew_Example-umbrella.h"; sourceTree = "<group>"; };
 		1A4B9E75DF76883282414452975535F1 /* Pods-SKImageExtensionDemoNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKImageExtensionDemoNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1DFABA62EE0206B14918D75D12AC700B /* Pods-SKImageExtensionDemoNew_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKImageExtensionDemoNew_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -99,21 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08BC9DE425596C0100C2B741 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				08BC9DE725596C4400C2B741 /* UIImageView.swift */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		08BC9DE625596C1B00C2B741 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
 		153EA6B88A225FEA0753850C524D4A6A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,8 +121,8 @@
 		25A39D0B2A4CD55783923419379E1B80 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				08BC9DE625596C1B00C2B741 /* Assets */,
-				08BC9DE425596C0100C2B741 /* Classes */,
+				08BC9DE925596FA400C2B741 /* Assets */,
+				08BC9DEA25596FA500C2B741 /* Classes */,
 				4A9EB9F8671C70E9C7651805094F48C1 /* LICENSE */,
 				CA72205730FDDCCF170AB01238FC99F0 /* README.md */,
 				E4BC2CEED979F1307CDF79A980B9C72F /* SKImageExtensionDemoNew.podspec */,
@@ -357,6 +344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BC9DEB25596FA500C2B741 /* Assets in Resources */,
+				08BC9DEC25596FA500C2B741 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08BC9DE825596C4400C2B741 /* UIImageView.swift in Sources */,
 				F8723DD939BC0769D30271AB4A3E6ABE /* SKImageExtensionDemoNew-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
